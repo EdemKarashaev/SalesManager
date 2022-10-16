@@ -17,9 +17,7 @@ public class Main {
 
         SalesManager sale = new SalesManager( sales);
         int max=sale.max();
-        int av=sale.average();
         System.out.println("Сумма максимальной продажи  "+max);
-        System.out.println("Сумма средних продаж  "+av);
     }
 }
 
