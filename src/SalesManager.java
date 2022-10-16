@@ -1,4 +1,5 @@
 public class SalesManager {
+
     protected long[] sales;
     long max = -1;
 
@@ -9,11 +10,11 @@ public class SalesManager {
     //вычисление максимального значения массива
     public long max() {
         for (long sale : sales) {
+
             if (sale > max) {
                 max = sale;
             }
         }
         return max;
     }
-
 }

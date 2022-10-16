@@ -16,7 +16,9 @@ public class Main {
         }
 
         SalesManager sale = new SalesManager( sales);
+
         long max=sale.max();
+
         System.out.println("Сумма максимальной продажи  "+max);
     }
 }
