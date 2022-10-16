@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println("Введите размерность массива продаж:");
         int size = scanner.nextInt();
-        long sales[]=new long[size];
+        int sales[]=new int[size];
 
         System.out.println("Введите суммы продаж, для завершения введите:");
         for (int i = 0; i < size; i++) {
@@ -17,7 +17,7 @@ public class Main {
 
         SalesManager sale = new SalesManager( sales);
 
-        long max=sale.max();
+        int max=sale.max();
 
         System.out.println("Сумма максимальной продажи  "+max);
     }
